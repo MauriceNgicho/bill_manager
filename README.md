@@ -1,8 +1,8 @@
-Bill Manager
+**Bill Manager**
 A simple interactive command-line bill and expense manager built with Rust.
 This project was created to practice core Rust concepts through a real-world CRUD-style application. Users can add, view, remove, and edit bills directly from the terminal.
 
-Features
+**Features**
 
 
 Add bills with a name and amount
@@ -24,7 +24,7 @@ Input validation for safer interaction
 
 
 
-Concepts Practiced
+**Concepts Practised**
 This project helped reinforce several important Rust concepts, including:
 
 
@@ -59,7 +59,7 @@ String handling (String vs &str)
 
 
 
-Lessons Learned
+**Lessons Learned**
 One of the biggest lessons from this project was understanding how Rust manages memory safely through ownership and borrowing rules.
 Working on editing and removing bills also helped demonstrate:
 
@@ -75,11 +75,11 @@ and how Rust encourages explicit error handling instead of unsafe assumptions.
 
 This project also showed the importance of choosing the right data structure. A Vec<Bill> was a better fit than a HashMap because the application is list-oriented and relies heavily on ordered indexing.
 
-Running the Project
+**Running the Project**
 Clone the repository and run:
 cargo run
 
-Future Improvements
+**Future Improvements**
 Possible future upgrades include:
 
 
@@ -105,5 +105,5 @@ Using HashMap for advanced lookup scenarios
 
 
 
-Author
+**Author**
 Built by Maurice Ngicho while learning Rust through hands-on projects.
